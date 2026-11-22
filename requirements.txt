@@ -1,0 +1,7 @@
+# Used only by the helper scripts (inputs, reference checks, memory sampling, analysis).
+# No Python package is used inside the measured Java program.
+numpy==2.2.0
+pandas==2.2.3
+matplotlib==3.9.4
+psutil==6.1.0
+tabulate==0.10.0

@@ -1,0 +1,109 @@
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.spi.ClientInvocationService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Running with 2 response threads, dynamic=true
+nov 22, 2026 1:22:34 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is STARTING
+nov 22, 2026 1:22:34 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is STARTED
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to cluster: mm-6ca9cae0152e
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5717
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5717: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5717
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5710
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5710: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5710
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5719
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5719: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5719
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5712
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5712: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5712
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5720
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5720: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5720
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5711
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5711: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5711
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5706
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+WARNING: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Exception during initial connection to [127.0.0.1]:5706: com.hazelcast.core.HazelcastException: java.io.IOException: Connection refused: getsockopt to address /127.0.0.1:5706
+nov 22, 2026 1:22:34 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Trying to connect to [127.0.0.1]:5701
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.hazelcast.internal.memory.impl.UnsafeUtil (file:/C:/Users/danie/OneDrive/Escritorio/universidad/Cuarto%20ano/BD/Teor%c3%ada/4th%20indv.assignment/matmul-distributed/build/lib/hazelcast-5.7.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.hazelcast.internal.memory.impl.UnsafeUtil
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+nov 22, 2026 1:22:41 P. M. com.hazelcast.client.impl.spi.ClientClusterService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Members [2] {
+	Member [127.0.0.1]:5701 - abf7e20d-1235-451b-af06-688749cfaf74
+	Member [127.0.0.1]:5705 - 4408e248-d457-48fd-92af-d7faf5477555
+}
+
+nov 22, 2026 1:22:41 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is CLIENT_CONNECTED
+nov 22, 2026 1:22:41 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Authenticated with server [127.0.0.1]:5701:abf7e20d-1235-451b-af06-688749cfaf74, server version: 5.7.0, local address: /127.0.0.1:56778
+nov 22, 2026 1:22:41 P. M. com.hazelcast.internal.diagnostics.Diagnostics
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Diagnostics service is disabled. You can enable it over Management Center or Operator dynamically.
+nov 22, 2026 1:22:41 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Authenticated with server [127.0.0.1]:5705:4408e248-d457-48fd-92af-d7faf5477555, server version: 5.7.0, local address: /127.0.0.1:57168
+nov 22, 2026 1:22:41 P. M. com.hazelcast.client.impl.statistics.ClientStatisticsService
+INFO: Client statistics is enabled with period 5 seconds.
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.spi.ClientClusterService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Members [3] {
+	Member [127.0.0.1]:5701 - abf7e20d-1235-451b-af06-688749cfaf74
+	Member [127.0.0.1]:5705 - 4408e248-d457-48fd-92af-d7faf5477555
+	Member [127.0.0.1]:5702 - cd18702d-805c-4b50-bb84-240ff5519dff
+}
+
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.spi.ClientClusterService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Members [4] {
+	Member [127.0.0.1]:5701 - abf7e20d-1235-451b-af06-688749cfaf74
+	Member [127.0.0.1]:5705 - 4408e248-d457-48fd-92af-d7faf5477555
+	Member [127.0.0.1]:5702 - cd18702d-805c-4b50-bb84-240ff5519dff
+	Member [127.0.0.1]:5704 - 6d0cfbce-2bad-4f27-b509-4fe283598217
+}
+
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.spi.ClientClusterService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Members [5] {
+	Member [127.0.0.1]:5701 - abf7e20d-1235-451b-af06-688749cfaf74
+	Member [127.0.0.1]:5705 - 4408e248-d457-48fd-92af-d7faf5477555
+	Member [127.0.0.1]:5702 - cd18702d-805c-4b50-bb84-240ff5519dff
+	Member [127.0.0.1]:5704 - 6d0cfbce-2bad-4f27-b509-4fe283598217
+	Member [127.0.0.1]:5703 - 37ec73cd-834d-4746-afc1-e5651c47c9b4
+}
+
+placement member 0 [127.0.0.1]:5701 key=band-0-2 rows=[0,120)
+placement member 1 [127.0.0.1]:5705 key=band-1-3 rows=[120,240)
+placement member 2 [127.0.0.1]:5702 key=band-2-10 rows=[240,360)
+placement member 3 [127.0.0.1]:5704 key=band-3-0 rows=[360,480)
+placement member 4 [127.0.0.1]:5703 key=band-4-0 rows=[480,600)
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Authenticated with server [127.0.0.1]:5704:6d0cfbce-2bad-4f27-b509-4fe283598217, server version: 5.7.0, local address: /127.0.0.1:57170
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Authenticated with server [127.0.0.1]:5702:cd18702d-805c-4b50-bb84-240ff5519dff, server version: 5.7.0, local address: /127.0.0.1:57169
+nov 22, 2026 1:22:42 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Authenticated with server [127.0.0.1]:5703:37ec73cd-834d-4746-afc1-e5651c47c9b4, server version: 5.7.0, local address: /127.0.0.1:57171
+nov 22, 2026 1:22:43 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is SHUTTING_DOWN
+nov 22, 2026 1:22:43 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Removed connection to endpoint: [127.0.0.1]:5702:cd18702d-805c-4b50-bb84-240ff5519dff, connection: ClientConnection{alive=false, connectionId=3, channel=NioChannel{/127.0.0.1:57169->/127.0.0.1:5702}, remoteAddress=[127.0.0.1]:5702, remoteUuid=cd18702d-805c-4b50-bb84-240ff5519dff, clusterUuid=fcd1e69d-a786-428a-8f35-2ab9bee44506, lastReadTime=2026-11-22 13:22:43.073, lastWriteTime=2026-11-22 13:22:43.073, closedTime=2026-11-22 13:22:43.140}
+nov 22, 2026 1:22:43 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Removed connection to endpoint: [127.0.0.1]:5705:4408e248-d457-48fd-92af-d7faf5477555, connection: ClientConnection{alive=false, connectionId=2, channel=NioChannel{/127.0.0.1:57168->/127.0.0.1:5705}, remoteAddress=[127.0.0.1]:5705, remoteUuid=4408e248-d457-48fd-92af-d7faf5477555, clusterUuid=fcd1e69d-a786-428a-8f35-2ab9bee44506, lastReadTime=2026-11-22 13:22:43.136, lastWriteTime=2026-11-22 13:22:43.134, closedTime=2026-11-22 13:22:43.164}
+nov 22, 2026 1:22:43 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Removed connection to endpoint: [127.0.0.1]:5704:6d0cfbce-2bad-4f27-b509-4fe283598217, connection: ClientConnection{alive=false, connectionId=4, channel=NioChannel{/127.0.0.1:57170->/127.0.0.1:5704}, remoteAddress=[127.0.0.1]:5704, remoteUuid=6d0cfbce-2bad-4f27-b509-4fe283598217, clusterUuid=fcd1e69d-a786-428a-8f35-2ab9bee44506, lastReadTime=2026-11-22 13:22:43.073, lastWriteTime=2026-11-22 13:22:43.073, closedTime=2026-11-22 13:22:43.164}
+nov 22, 2026 1:22:43 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Removed connection to endpoint: [127.0.0.1]:5703:37ec73cd-834d-4746-afc1-e5651c47c9b4, connection: ClientConnection{alive=false, connectionId=5, channel=NioChannel{/127.0.0.1:57171->/127.0.0.1:5703}, remoteAddress=[127.0.0.1]:5703, remoteUuid=37ec73cd-834d-4746-afc1-e5651c47c9b4, clusterUuid=fcd1e69d-a786-428a-8f35-2ab9bee44506, lastReadTime=2026-11-22 13:22:43.121, lastWriteTime=2026-11-22 13:22:43.115, closedTime=2026-11-22 13:22:43.164}
+nov 22, 2026 1:22:43 P. M. com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] Removed connection to endpoint: [127.0.0.1]:5701:abf7e20d-1235-451b-af06-688749cfaf74, connection: ClientConnection{alive=false, connectionId=1, channel=NioChannel{/127.0.0.1:56778->/127.0.0.1:5701}, remoteAddress=[127.0.0.1]:5701, remoteUuid=abf7e20d-1235-451b-af06-688749cfaf74, clusterUuid=fcd1e69d-a786-428a-8f35-2ab9bee44506, lastReadTime=2026-11-22 13:22:43.134, lastWriteTime=2026-11-22 13:22:43.126, closedTime=2026-11-22 13:22:43.166}
+nov 22, 2026 1:22:43 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is CLIENT_DISCONNECTED
+nov 22, 2026 1:22:43 P. M. com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [mm-6ca9cae0152e] [5.7.0] HazelcastClient 5.7.0 (20260512 - b9df48a) is SHUTDOWN

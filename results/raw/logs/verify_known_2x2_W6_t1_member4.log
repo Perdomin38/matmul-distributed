@@ -1,0 +1,100 @@
+nov 22, 2026 1:17:48 P. M. com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [mm-c5c405797bc9] [5.7.0] Interfaces is enabled, trying to pick one address matching to one of: [127.0.0.1, 127.0.0.1]
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system.logo
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
+
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Copyright (c) 2008-2026, Hazelcast, Inc. All Rights Reserved.
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Hazelcast Platform 5.7.0 (20260512 - b9df48a) starting at [127.0.0.1]:5705
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Cluster name: mm-c5c405797bc9
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+nov 22, 2026 1:17:48 P. M. com.hazelcast.system
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.hazelcast.shaded.org.jctools.util.UnsafeAccess (file:/C:/Users/danie/OneDrive/Escritorio/universidad/Cuarto%20ano/BD/Teor%c3%ada/4th%20indv.assignment/matmul-distributed/build/lib/hazelcast-5.7.0.jar)
+WARNING: Please consider reporting this to the maintainers of class com.hazelcast.shaded.org.jctools.util.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+nov 22, 2026 1:17:49 P. M. com.hazelcast.system.security
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+nov 22, 2026 1:17:49 P. M. com.hazelcast.instance.impl.Node
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Using TCP/IP discovery
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Diagnostics service is disabled. You can enable it over Management Center or Operator dynamically.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.core.LifecycleService
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5705 is STARTING
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5720 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5711 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5719 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5713 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5712 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5715 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5714 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5718 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5716 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5710 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5717 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5707 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5708 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.cluster.impl.TcpIpJoiner
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5709 is added to the blacklist.
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:5705 and /127.0.0.1:50886
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:5705 and /127.0.0.1:50911
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:5705 and /127.0.0.1:50915
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:5705 and /127.0.0.1:50931
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:5705 and /127.0.0.1:50952
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:50971 and /127.0.0.1:5701
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:50914 and /127.0.0.1:5704
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:50910 and /127.0.0.1:5703
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:50936 and /127.0.0.1:5706
+nov 22, 2026 1:17:50 P. M. com.hazelcast.internal.server.tcp.TcpServerConnection
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] Initialized new cluster connection between /127.0.0.1:50913 and /127.0.0.1:5702
+nov 22, 2026 1:17:57 P. M. com.hazelcast.internal.cluster.ClusterService
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] 
+
+Members {size:6, ver:6} [
+	Member [127.0.0.1]:5701 - 3330fbe5-4e10-430b-b27b-283d35d4105c
+	Member [127.0.0.1]:5702 - b52c5b19-39aa-4ea8-95ec-3d28fb24aedd
+	Member [127.0.0.1]:5703 - ee8d5823-de01-4ee7-add3-49704f97dff1
+	Member [127.0.0.1]:5706 - 5f2d0205-8d7e-42f6-9473-5b929ef9c042
+	Member [127.0.0.1]:5704 - 2a6abea5-cecf-4ea9-879c-1fdb7c009d4e
+	Member [127.0.0.1]:5705 - 8391e904-fa99-4804-a21f-ff99765dcf3b this
+]
+
+nov 22, 2026 1:17:57 P. M. com.hazelcast.core.LifecycleService
+INFO: [127.0.0.1]:5705 [mm-c5c405797bc9] [5.7.0] [127.0.0.1]:5705 is STARTED
+member_ready 1795353477304 [127.0.0.1]:5705 availableProcessors=1

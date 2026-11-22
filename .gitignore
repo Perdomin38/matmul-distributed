@@ -1,0 +1,16 @@
+# Compiled program and downloaded Hazelcast jar (recreated by scripts/build.py)
+build/
+# Input and test matrices (recreated exactly by generate_inputs.py and verify.py
+# from fixed seeds; about 2 GB)
+data/
+__pycache__/
+*.pyc
+# Quick test runs
+results/test_run/
+# LaTeX source and build files (only the final PDF is published)
+report/*.tex
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz

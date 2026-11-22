@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Build file. Run through scripts/build.py, which calls
+     mvn -q package dependency:copy-dependencies
+     Classes go to build/classes, the Hazelcast jar to build/lib. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.ulpgc.bigdata</groupId>
+  <artifactId>matmul-distributed</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hazelcast.version>5.7.0</hazelcast.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.hazelcast</groupId>
+      <artifactId>hazelcast</artifactId>
+      <version>${hazelcast.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <directory>build</directory>
+    <outputDirectory>build/classes</outputDirectory>
+    <sourceDirectory>src/java</sourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <outputDirectory>build/lib</outputDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

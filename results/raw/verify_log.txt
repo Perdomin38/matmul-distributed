@@ -1,0 +1,56 @@
+known_2x2  n=  2 seq   W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 basic W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=2 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=3 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=4 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=5 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=6 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=1 t=6 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=2 t=3 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+known_2x2  n=  2 dist  W=3 t=2 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 seq   W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 basic W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=2 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=3 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=4 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=5 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=6 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=1 t=6 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=2 t=3 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+identity   n= 37 dist  W=3 t=2 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 seq   W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 basic W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=1 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=2 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=3 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=4 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=5 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=6 t=1 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=1 t=6 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=2 t=3 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+zero       n= 37 dist  W=3 t=2 OK max_abs_err=0.000e+00 ok=True bitwise_equal_to_seq=True
+random_157 n=157 seq   W=1 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 basic W=1 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=1 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=2 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=3 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=4 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=5 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=6 t=1 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=1 t=6 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=2 t=3 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_157 n=157 dist  W=3 t=2 OK max_abs_err=1.243e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 seq   W=1 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 basic W=1 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=1 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=2 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=3 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=4 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=5 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=6 t=1 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=1 t=6 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=2 t=3 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+random_600 n=600 dist  W=3 t=2 OK max_abs_err=7.816e-14 ok=True bitwise_equal_to_seq=True
+ALL TESTS PASSED

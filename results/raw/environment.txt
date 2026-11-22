@@ -1,0 +1,30 @@
+CPU: 13th Gen Intel(R) Core(TM) i7-13620H
+Physical cores: 10
+Logical processors: 16
+  (i7-13620H: 6 P-cores with Hyper-Threading = logical CPUs 0-11, P-core c = CPUs 2c, 2c+1;
+   4 E-cores without it = logical CPUs 12-15; mapping measured in Assignment 3)
+RAM: 16.9 GB
+OS: Windows-10-10.0.26300-SP0
+Power plan: GUID de plan de energ¡a: fdfcf954-2d86-4c39-a7d6-c082dd90fbdb  (QuickCpuScheme)
+Physical machines used: 1 (LOCAL execution, loopback network 127.0.0.1)
+
+Java: java version "24.0.1" 2025-04-15 / Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
+Maven: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Hazelcast: 5.7.0 (jars in build/lib: hazelcast-5.7.0.jar)
+Hazelcast settings: see src/java/ClusterConfig.java (TCP/IP join on 127.0.0.1,
+  maps mm-A/mm-B/mm-C with backup-count 0, executor mm-exec, phone-home off)
+JVM heaps: sized per configuration (common.member_heap_mb / driver_heap_mb);
+  baselines -Xmx3g. Every JVM gets -XX:ActiveProcessorCount = its number of CPUs.
+Python: CPython 3.11.9
+NumPy (inputs and reference only): 2.2.0
+psutil (memory, affinity, priority): 6.1.0
+
+Processes and threads:
+  members W tested: [1, 2, 3, 4, 5, 6]; splits (W, t): [(1, 6), (2, 3), (3, 2), (6, 1)]; baseline p: [1, 2, 3, 4, 5, 6]
+  worker = compute thread; process = one JVM (member, driver or baseline)
+  member m with t compute threads is pinned to logical CPUs {2c : c = m t .. (m+1) t - 1}, e.g. W=6,t=1: [[0], [2], [4], [6], [8], [10]]
+  driver (Hazelcast client, does not compute) pinned to logical CPUs [12, 13, 14, 15]
+  baseline with p threads pinned to logical CPUs 0, 2, ..., 2(p-1)
+  Besides its t compute threads, every member JVM runs Hazelcast's own threads
+  (network I/O, partition operations, executor) and the JVM's JIT and GC threads;
+  these do not run the multiplication. No numerical library is used.
